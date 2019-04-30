@@ -1,19 +1,15 @@
 package com.virjanand.refactoringMovieRenting;
 
-public class Rental {
+class Rental {
     private Movie _movie;
     private int _daysRented;
 
-    public Rental(Movie movie, int daysRented) {
-        _movie = movie;
+    Rental(Movie movie, int daysRented) {
+            _movie = movie;
         _daysRented = daysRented;
     }
 
-    public int getDaysRented() {
-        return _daysRented;
-    }
-
-    public Movie getMovie() {
+    Movie getMovie() {
         return _movie;
     }
 

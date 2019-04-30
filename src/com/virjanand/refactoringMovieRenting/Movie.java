@@ -1,12 +1,11 @@
 package com.virjanand.refactoringMovieRenting;
 
 public class Movie {
-    public static final int CHILDRENS = 2;
-    public static final int REGULAR = 0;
-    public static final int NEW_RELEASE = 1;
+    static final int CHILDRENS = 2;
+    static final int REGULAR = 0;
+    static final int NEW_RELEASE = 1;
 
     private String _title;
-    private int _priceCode;
     private Price _price;
 
     public Movie(String title, int priceCode) {
@@ -14,11 +13,7 @@ public class Movie {
         setPriceCode(priceCode);
     }
 
-    public int getPriceCode() {
-        return _price.getPriceCode();
-    }
-
-    public void setPriceCode(int arg) {
+    private void setPriceCode(int arg) {
         switch (arg) {
             case REGULAR:
                 _price = new RegularPrice();
@@ -34,7 +29,7 @@ public class Movie {
         }
     }
 
-    public String getTitle() {
+    String getTitle() {
         return _title;
     }
 
@@ -43,8 +38,6 @@ public class Movie {
     }
 
     int getFrequentRenterPoints(int daysRented) {
-        if ((getPriceCode() == Movie.NEW_RELEASE) && daysRented > 1)
-            return 2;
-        else return 1;
+        return _price.getFrequentRenterPoints(daysRented);
     }
 }

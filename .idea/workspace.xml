@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72a9dcbb-d9e2-47ab-bd66-2b5eacc1cdea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java" afterDir="false" />
+    <list default="true" id="72a9dcbb-d9e2-47ab-bd66-2b5eacc1cdea" name="Default" comment="Replace conditional on movie type with polymorphism for renterPoints">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/NewReleasePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/NewReleasePrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,18 +18,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding>
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
                 <element signature="e#548#549#0" expanded="true" />
                 <element signature="e#577#578#0" expanded="true" />
                 <element signature="e#1038#1039#0" expanded="true" />
                 <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,12 +38,11 @@
       <file leaf-file-name="Price.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Price.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,13 +64,15 @@
       <file leaf-file-name="NewReleasePrice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/NewReleasePrice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#130#131#0" expanded="true" />
                 <element signature="e#169#170#0" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
                 <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,11 +94,9 @@
       <file leaf-file-name="Rental.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
                 <element signature="e#273#274#0" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
                 <element signature="e#394#395#0" expanded="true" />
@@ -123,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+            <state relative-caret-position="323">
+              <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,13 +162,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.groovy" />
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java" />
-        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java" />
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/RegularPrice.java" />
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/ChildrensPrice.java" />
-        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/NewReleasePrice.java" />
-        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Price.java" />
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Price.java" />
+        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/NewReleasePrice.java" />
+        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java" />
+        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java" />
       </list>
     </option>
   </component>
@@ -413,38 +416,52 @@
       <option name="project" value="LOCAL" />
       <updated>1556619082260</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactor tests and added some to make base price clear">
+      <created>1556624392627</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1556624392627</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Finished replace conditional with polymorphism">
+      <created>1556624507725</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1556624507725</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerTest - 2019.04.30 at 11h 58m 41s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 11h 59m 02s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 11h 59m 52s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 12h 00m 14s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 12h 00m 37s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 12h 08m 30s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 12h 10m 13s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 12h 10m 39s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CustomerTest - 2019.04.30 at 12h 10m 58s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CustomerTest - 2019.04.30 at 13h 32m 19s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 13h 37m 11s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 13h 40m 33s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 13h 45m 14s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 13h 45m 35s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 13h 48m 03s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 13h 48m 47s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 13h 49m 51s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 13h 50m 39s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -454,13 +471,13 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -498,7 +515,10 @@
     <MESSAGE value="Move getCharge to Price class and extract methods for each case" />
     <MESSAGE value="Move each method in correct class and rename to override getCharge" />
     <MESSAGE value="Added tests to make working code clearer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tests to make working code clearer" />
+    <MESSAGE value="Refactor tests and added some to make base price clear" />
+    <MESSAGE value="Finished replace conditional with polymorphism" />
+    <MESSAGE value="Replace conditional on movie type with polymorphism for renterPoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace conditional on movie type with polymorphism for renterPoints" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,19 +529,45 @@
     <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.groovy">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java">
+    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="323">
+          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
           <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Price.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/ChildrensPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/RegularPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -542,74 +588,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/NewReleasePrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#130#131#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#246#247#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/RegularPrice.java">
+    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/ChildrensPrice.java">
+    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Price.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
           </folding>
         </state>
       </provider>
