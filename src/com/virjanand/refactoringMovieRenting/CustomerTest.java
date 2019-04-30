@@ -7,9 +7,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CustomerTest {
 
     @Test
-    public void oneRegularMovieOneDay_givesAmount2Points1() {
+    public void oneRegularMovieOneDay_givesCharge2Points1() {
         String movieName = "regularMovie";
         Customer customer = createCustomer(movieName, 0, 1);
+        assertEquals(generateExpectedString(movieName, 2.0, 2.0, 1), customer.statement());
+    }
+
+    @Test
+    public void oneRegularMovie2Days_stillGivesCharge2Points1() {
+        String movieName = "regularMovie";
+        Customer customer = createCustomer(movieName, 0, 2);
         assertEquals(generateExpectedString(movieName, 2.0, 2.0, 1), customer.statement());
     }
 
@@ -24,21 +31,21 @@ public class CustomerTest {
     }
 
     @Test
-    public void oneNewReleaseMovieOneDay_givesAmount3Points1() {
-        String movieName = "newReleaseMovie";
-        Customer customer = createCustomer(movieName, 1, 1);
-        assertEquals(generateExpectedString(movieName, 3.0, 3.0, 1), customer.statement());
-    }
-
-    @Test
-    public void oneChildrensMovieOneDay_givesAmount1_5Points1() {
+    public void oneChildrensMovieOneDay_givesCharge1_5Points1() {
         String movieName = "childrensMovie";
         Customer customer = createCustomer(movieName, 2, 1);
         assertEquals(generateExpectedString(movieName, 1.5, 1.5, 1), customer.statement());
     }
 
     @Test
-    public void oneChildrensMovie4Days_givesAmount3Points1() {
+    public void oneChildrensMovie3Days_stillGivesCharge1_5Points1() {
+        String movieName = "childrensMovie";
+        Customer customer = createCustomer(movieName, 2, 3);
+        assertEquals(generateExpectedString(movieName, 1.5, 1.5, 1), customer.statement());
+    }
+
+    @Test
+    public void oneChildrensMovie4Days_givesCharge3Points1() {
         String movieName = "childrensMovie";
         int daysRented = 4;
         Customer customer = createCustomer(movieName, 2, daysRented);
@@ -48,7 +55,14 @@ public class CustomerTest {
     }
 
     @Test
-    public void oneNewReleaseMovie2Days_givesAmount6Points2() {
+    public void oneNewReleaseMovieOneDay_givesCharge3Points1() {
+        String movieName = "newReleaseMovie";
+        Customer customer = createCustomer(movieName, 1, 1);
+        assertEquals(generateExpectedString(movieName, 3.0, 3.0, 1), customer.statement());
+    }
+
+    @Test
+    public void oneNewReleaseMovie2Days_givesCharge6Points2() {
         String movieName = "newReleaseMovie";
         int daysRented = 2;
         Customer customer = createCustomer(movieName, 1, daysRented);
@@ -57,7 +71,7 @@ public class CustomerTest {
     }
 
     @Test
-    public void twoNewReleaseMovieTwoDays_givesAmount12Points4() {
+    public void twoNewReleaseMovieTwoDays_givesCharge12Points4() {
         String movieName = "newReleaseMovie";
         Customer customer = createCustomer(movieName, 1, 2);
         Movie secondMovie = new Movie(movieName, 1);
