@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a9dcbb-d9e2-47ab-bd66-2b5eacc1cdea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +50,8 @@
       <file leaf-file-name="Customer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="464">
+              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
@@ -68,8 +68,8 @@
       <file leaf-file-name="CustomerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            <state relative-caret-position="447">
+              <caret line="57" column="109" selection-start-line="57" selection-start-column="109" selection-end-line="57" selection-end-column="109" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +96,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java" />
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.groovy" />
-        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java" />
+        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Customer.java" />
       </list>
     </option>
@@ -283,19 +283,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556603786413</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Extract method to determine total charge, to remove temp variable">
+      <created>1556604411456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556604411456</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Extract method to determine total frequentRenterPoints, to remove temp variable">
+      <created>1556604646341</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556604646341</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerTest - 2019.04.30 at 06h 25m 38s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 06h 25m 56s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 06h 37m 38s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CustomerTest - 2019.04.30 at 06h 41m 35s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
@@ -315,6 +320,15 @@
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CustomerTest - 2019.04.30 at 07h 55m 43s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 08h 06m 00s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 08h 10m 09s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 08h 10m 21s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -359,7 +373,9 @@
     <MESSAGE value="Added tests" />
     <MESSAGE value="Extract method to determine amount for each line and moved to Rental" />
     <MESSAGE value="Extract method to determine frequentRenterPoints for each line and moved to Rental" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extract method to determine frequentRenterPoints for each line and moved to Rental" />
+    <MESSAGE value="Extract method to determine total charge, to remove temp variable" />
+    <MESSAGE value="Extract method to determine total frequentRenterPoints, to remove temp variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extract method to determine total frequentRenterPoints, to remove temp variable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,16 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -408,10 +414,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="57" column="109" selection-start-line="57" selection-start-column="109" selection-end-line="57" selection-end-column="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="464">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />

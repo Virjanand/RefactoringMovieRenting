@@ -48,6 +48,16 @@ public class CustomerTest {
                 + "You earned " + 4 + " frequent renter points", customer.statement());
     }
 
+    @Test
+    public void htmlStatement() {
+        String movieName = "newReleaseMovie";
+        Customer customer = createCustomer(movieName, 1, 2);
+        assertEquals("<H1>Rentals for <EM>customer</EM></H1><P>\n"
+                + movieName + ": " + 6.0 + "<BR>\n"
+                + "<P>You owe <EM>" + 6.0 + "</EM><P>\n"
+                + "On this rental you earned <EM>" + 2 + "</EM> frequent renter points<P>", customer.htmlStatement());
+    }
+
     private String generateExpectedString(String movieName, double amountPerMovie, double totalAmount, int frequentRenterPoints) {
         return "Rental Record for customer\n"
                 + "\t" + movieName + "\t" + amountPerMovie + "\n"
