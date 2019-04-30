@@ -4,7 +4,6 @@
     <list default="true" id="72a9dcbb-d9e2-47ab-bd66-2b5eacc1cdea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+            <state relative-caret-position="153">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="e#405#406#0" expanded="true" />
                 <element signature="e#438#439#0" expanded="true" />
@@ -33,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rental.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rental.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding>
                 <element signature="e#337#338#0" expanded="true" />
                 <element signature="e#371#372#0" expanded="true" />
@@ -102,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.groovy" />
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java" />
         <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java" />
+        <option value="$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java" />
       </list>
     </option>
   </component>
@@ -309,19 +308,17 @@
       <option name="project" value="LOCAL" />
       <updated>1556605483686</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="To deal with changes in movieTypes moved getCharge and getFrequentRenterPoints to Movie">
+      <created>1556616301489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556616301489</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerTest - 2019.04.30 at 07h 54m 07s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 07h 54m 28s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.04.30 at 07h 55m 43s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CustomerTest - 2019.04.30 at 08h 06m 00s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
@@ -341,6 +338,15 @@
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CustomerTest - 2019.04.30 at 11h 18m 33s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 11h 19m 03s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 11h 21m 00s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.04.30 at 11h 22m 25s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -388,7 +394,8 @@
     <MESSAGE value="Extract method to determine total charge, to remove temp variable" />
     <MESSAGE value="Extract method to determine total frequentRenterPoints, to remove temp variable" />
     <MESSAGE value="Added htmlStatement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added htmlStatement" />
+    <MESSAGE value="To deal with changes in movieTypes moved getCharge and getFrequentRenterPoints to Movie" />
+    <option name="LAST_COMMIT_MESSAGE" value="To deal with changes in movieTypes moved getCharge and getFrequentRenterPoints to Movie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -398,6 +405,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.groovy">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/CustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -427,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        <state relative-caret-position="153">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="e#405#406#0" expanded="true" />
             <element signature="e#438#439#0" expanded="true" />
@@ -436,23 +460,6 @@
             <element signature="e#530#531#0" expanded="true" />
             <element signature="e#548#549#0" expanded="true" />
             <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/virjanand/refactoringMovieRenting/Rental.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
           </folding>
         </state>
       </provider>
