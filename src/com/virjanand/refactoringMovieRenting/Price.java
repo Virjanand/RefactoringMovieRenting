@@ -23,10 +23,10 @@ abstract class Price {
         return result;
     }
 
-
     private double getChargeNewRelease(int daysRented) {
         return (double) (daysRented * 3);
     }
+
     private double getChargeChildrens(int daysRented) {
         double result = 1.5;
         if (daysRented > 3)
